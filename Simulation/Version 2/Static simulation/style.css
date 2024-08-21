@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: Philly Sans;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  left: 20px;
+  /*right: 800;*/
+
+  /*color: transparent;*/
+  text-shadow: 0 0 15px white;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 53px;
+  left: 20px;
+  /*right: 800;*/
+
+  /*color: transparent;*/
+  color: red;
+  /*text-shadow: 0 0 2px white;*/
+}

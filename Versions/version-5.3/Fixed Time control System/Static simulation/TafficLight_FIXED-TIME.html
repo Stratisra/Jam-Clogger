@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fixed-Time Control System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body onclick="javascript: rfd = prompt('Refresh delay (milliseconds)', refresh_delay); if (rfd>0) {refresh_delay = rfd;}">
+    <h1>FIXED-TIME TRAFFIC LIGHTS</h1>
+	<h2>Click anywhere to pause and change the refresh rate...</h1>
+	<canvas></canvas>
+	<script src="TrafficLight_States_FIXED-TIME.js"></script>
+    <script src="main-static.js"></script>
+  </body>
+</html>
